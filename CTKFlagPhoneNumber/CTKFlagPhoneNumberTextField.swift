@@ -323,7 +323,7 @@ open class CTKFlagPhoneNumberTextField: UITextField, UITextFieldDelegate, Countr
 			
 			searchCountryViewController.delegate = self
 			
-			parentViewController?.present(navigationViewController, animated: false, completion: nil)
+			parentViewController?.present(navigationViewController, animated: true, completion: nil)
 		}
 	}
 	
