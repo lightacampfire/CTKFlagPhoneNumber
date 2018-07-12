@@ -193,7 +193,7 @@ open class CTKFlagPhoneNumberTextField: UITextField, UITextFieldDelegate, Countr
 	}
 	
 	@objc private func resetKeyBoard() {
-		keyboardType = .default
+		keyboardType = .numberPad
 		inputView = nil
 		inputAccessoryView = nil
 		resignFirstResponder()
